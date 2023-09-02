@@ -12,7 +12,29 @@
             Console.WriteLine("введите второе число: ");
             int number2 = Convert.ToInt32(Console.ReadLine());
 
-
+            int res;
+            switch (ch)
+            {
+                case '+':
+                    res = number1+number2;
+                    break;
+                case '-':
+                    res = number1-number2;
+                    break;
+                case '*':
+                    res = number1*number2;
+                    break;
+                case '/':
+                    if (number2 == 0)
+                    {
+                        Console.WriteLine("нельзя делить на ноль!");
+                        break;
+                    }
+                    res = number1/number2;
+                    break;
+                default:
+                    break;
+            }
         }
     }
 }
