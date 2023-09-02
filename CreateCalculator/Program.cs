@@ -4,7 +4,6 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
             Console.WriteLine("введите первое число: ");
             int number1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("введите операцию: ");
