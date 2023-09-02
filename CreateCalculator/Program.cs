@@ -17,12 +17,15 @@
             {
                 case '+':
                     res = number1+number2;
+                    Console.WriteLine($"{number1} {ch} {number2} = {res}");
                     break;
                 case '-':
                     res = number1-number2;
+                    Console.WriteLine($"{number1} {ch} {number2} = {res}");
                     break;
                 case '*':
                     res = number1*number2;
+                    Console.WriteLine($"{number1} {ch} {number2} = {res}");
                     break;
                 case '/':
                     if (number2 == 0)
@@ -31,6 +34,7 @@
                         break;
                     }
                     res = number1/number2;
+                    Console.WriteLine($"{number1} {ch} {number2} = {res}");
                     break;
                 default:
                     break;
